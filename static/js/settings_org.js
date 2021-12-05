@@ -520,7 +520,7 @@ export function sync_realm_settings(property) {
     if (!overlays.settings_open()) {
         return;
     }
-    
+
     const value = page_params[`realm_${property}`];
     switch (property) {
         case "notifications_stream_id":
